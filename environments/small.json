@@ -1,9 +1,19 @@
 {
+  "id": 1,
   "api_key": "benchmark-environment-key",
   "name": "Production",
+  "updated_at": "2026-01-01T00:00:00+00:00",
   "project": {
     "id": 1,
     "name": "Benchmark",
+    "organisation": {
+      "id": 1,
+      "name": "Benchmark",
+      "feature_analytics": false,
+      "stop_serving_flags": false,
+      "persist_trait_data": true
+    },
+    "hide_disabled_flags": false,
     "segments": [
       {
         "id": 1,
@@ -1387,6 +1397,8 @@
   ],
   "identity_overrides": [
     {
+      "environment_api_key": "benchmark-environment-key",
+      "created_date": "2026-01-01T00:00:00+00:00",
       "identifier": "identity-override-1",
       "identity_uuid": "039d0b11-c8e9-5cfe-87dc-3e615cb8f019",
       "django_id": 1,
@@ -1418,6 +1430,8 @@
       ]
     },
     {
+      "environment_api_key": "benchmark-environment-key",
+      "created_date": "2026-01-01T00:00:00+00:00",
       "identifier": "identity-override-2",
       "identity_uuid": "8524ca20-6fcc-5e37-81e0-fff13b716a97",
       "django_id": 2,
@@ -1437,6 +1451,8 @@
       ]
     },
     {
+      "environment_api_key": "benchmark-environment-key",
+      "created_date": "2026-01-01T00:00:00+00:00",
       "identifier": "identity-override-3",
       "identity_uuid": "a6fb0861-02ee-5ca7-9cdc-d0cd2ee8a1e7",
       "django_id": 3,
@@ -1468,6 +1484,8 @@
       ]
     },
     {
+      "environment_api_key": "benchmark-environment-key",
+      "created_date": "2026-01-01T00:00:00+00:00",
       "identifier": "identity-override-4",
       "identity_uuid": "7e9da688-d231-5a6f-a5d2-d21d65c49b9b",
       "django_id": 4,
@@ -1487,6 +1505,8 @@
       ]
     },
     {
+      "environment_api_key": "benchmark-environment-key",
+      "created_date": "2026-01-01T00:00:00+00:00",
       "identifier": "identity-override-5",
       "identity_uuid": "1f2e92b8-1526-5b38-9fbb-752457478c78",
       "django_id": 5,
@@ -1518,6 +1538,8 @@
       ]
     },
     {
+      "environment_api_key": "benchmark-environment-key",
+      "created_date": "2026-01-01T00:00:00+00:00",
       "identifier": "identity-override-6",
       "identity_uuid": "237ffd32-8110-5276-a375-0557665c8d88",
       "django_id": 6,
@@ -1537,6 +1559,8 @@
       ]
     },
     {
+      "environment_api_key": "benchmark-environment-key",
+      "created_date": "2026-01-01T00:00:00+00:00",
       "identifier": "identity-override-7",
       "identity_uuid": "23090277-7d97-5bef-968f-94904a135f93",
       "django_id": 7,
@@ -1568,6 +1592,8 @@
       ]
     },
     {
+      "environment_api_key": "benchmark-environment-key",
+      "created_date": "2026-01-01T00:00:00+00:00",
       "identifier": "identity-override-8",
       "identity_uuid": "459d931e-f066-5a39-accf-d2266d2334e5",
       "django_id": 8,
@@ -1587,6 +1613,8 @@
       ]
     },
     {
+      "environment_api_key": "benchmark-environment-key",
+      "created_date": "2026-01-01T00:00:00+00:00",
       "identifier": "identity-override-9",
       "identity_uuid": "505384a2-0cd6-5b2e-b33c-691dad63f79d",
       "django_id": 9,
@@ -1618,6 +1646,8 @@
       ]
     },
     {
+      "environment_api_key": "benchmark-environment-key",
+      "created_date": "2026-01-01T00:00:00+00:00",
       "identifier": "identity-override-10",
       "identity_uuid": "a00d6247-2308-5235-ba6a-e4188cd17b47",
       "django_id": 10,
